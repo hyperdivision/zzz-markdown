@@ -34,7 +34,7 @@ result, but can be cached busted by keying the component. The result is wrapped
 in a `div`, to make applying styles across the whole block easy.
 The element can be changed by composition. `attrs` are applied to the `div`.
 
-### `const className = require('zzz-markdown/dark-one')
+### `const className = require('zzz-markdown/dark-one')`
 
 Dark One theme as a scoped highlight.js theme. See the example above for usage
 
