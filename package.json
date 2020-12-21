@@ -1,0 +1,31 @@
+{
+  "name": "zzz-markdown",
+  "version": "0.0.0",
+  "description": "ZZZ rendered markdown",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "highlight.js": "^10.4.1",
+    "marked": "^1.2.7",
+    "zzz": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperdivision/zzz-markdown.git"
+  },
+  "keywords": ["zzz", "markdown"],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperdivision/zzz-markdown/issues"
+  },
+  "homepage": "https://github.com/hyperdivision/zzz-markdown#readme"
+}
