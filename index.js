@@ -23,7 +23,11 @@ const codespan = text => z`code.hljs-inline`(highlight(text))
 const blockquote = z`blockquote`
 const paragraph = z`p`
 const br = z`br`
-const link = z`a`
+const link = ({ href, title }, children) => {
+  const isCORS = new URL(token.href, window.location).hostname !== window.location.hostname
+
+  return z`a`({ href, title, target: isCORS ? '_blank' : '', rel: isCORS ? 'noopener' : '' }, children)
+}
 const image = z`img`
 const strong = z`strong`
 const em = z`em`
